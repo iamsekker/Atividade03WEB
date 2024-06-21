@@ -1,0 +1,268 @@
+body{
+    background: url(imagens/backround.jpg);
+    color:#868686;
+    font-family: "Open Sans", Helvetica, sans-serif, arial;
+    font-size: 1.125em; 
+    font-weight: 300;
+    line-height: 1,2222222222em;
+    text-align: left;
+    text-shadow: 1px 1px 0px #fff;
+}
+
+.center{
+    margin: 0 auto;
+    max-width:1200px; 
+    width: 90%;
+}
+
+img, picture, video, embed{
+    max-width: 100%;
+}
+
+h1, h2{
+    color:#FE9380;
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: -3px; 
+    line-height: 60px;
+}
+
+h3{
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: -2px; 
+    line-height: 38px;
+}
+
+p{
+    font-weight: 300;
+    letter-spacing: -1px; 
+}
+
+a, a:link, a:visited{
+    color: #FE9380;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#FE5E41;
+    text-decoration: underline;
+    text-shadow: none;
+}
+
+header{
+    border-bottom: 1px solid #e0e0e0;
+    height: 150px;
+    width:100%;
+}
+
+header h1 a{
+    background: url(imagens/imagens/logo-criar-site-responsivo.png) no-repeat;
+    display: block;
+    float: left;
+    height: 139px;
+    text-indent: -9999;
+    width:25.166666666666665%;
+}
+
+nav{
+    float:right; 
+    margin-top:78px; 
+    text-align:right; 
+    width:40.83333333333333%;
+}
+
+nav ul{
+    list-style-type:none; 
+}
+
+nav li {
+    display: inline; 
+}
+
+nav ul li a{
+    margin-right: 30px; 
+}
+
+nav ul li:nth-child(5) a{
+    margin-right:0px; 
+}
+
+nav a:link, nav a:visited{
+    color:#999;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: -2px; /*espaçamento entre as letras*/
+    line-height: 26px;
+    display:inline-block;
+}
+
+nav a.ativo:link, nav a:hover{
+    color:#FE9380; /*indica a página ativa e o link:hover*/
+}
+
+.chamada{
+    height:290px;
+    text-align:center;
+    width:100%;
+}
+
+h2 span{
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: -2px;
+    line-height: 60px;
+}
+
+.chamada h3 {
+    margin: 0 auto;
+    width:75%;
+}
+
+.container{
+    background-color:#FE9481;
+    height: 417px;
+    padding:2.5%;
+    max-width:1200px;
+    width: 95%;
+    padding: 2,5%;
+}
+
+.desktop, .tablet, .mobile{
+    float:left;
+    position:relative;
+    text-align:center;
+    width:31.57894736842105%;
+
+}
+
+.desktop, .tablet{
+    margin-right: 2.631578947368421%;
+}
+
+.mobile{
+    background-color:#9C8CB9;
+    margin-right:0px;
+}
+
+.desktop{
+    background-color:#FE9481;
+}
+
+.tablet{
+    background-color:#FCDA92;
+}
+
+#desktop img, #tablet img, #mobile img{
+    margin: 10px auto -15px auto;
+    text-align: center;
+}
+
+.container h3{
+    color:#fff;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: -2px;
+    margin-bottom: 30px;
+    text-shadow:none;
+}
+
+.container p{
+    background-color:#fff;
+    float:left;
+    height:160px;
+    padding:7px;
+    position:absolute;
+    max-width:360px;
+    text-align:justify;
+    top:225px;
+}
+
+span.btn{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -2px;
+    height:27px;
+    margin-top: 30px;
+    position:absolute;
+    right: 1px;
+    text-align:center;
+    text-shadow:none;
+    width:120px;
+}
+
+span.btn a{
+    color:#fff;
+    padding: 2px 4px;
+}
+
+.desktop span.btn a{
+    background-color:#FE9481;
+}
+    
+.tablet span.btn a{
+    background-color:#FCDA92;
+}
+
+.mobile span.btn a{
+    background-color:#9C8CB9;
+}
+
+footer{
+    clear:both;
+    height: 50px;
+    padding: 10px 0px;
+    width:1200px;
+}
+
+.copyright{
+    float:left;
+    margin-left:30px;
+}
+
+.desenvolvedor{
+    float:right;
+}
+
+.desenvolvedor figure{
+    width:182px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container .desktop figure, .container .tablet figure,
+.container .mobile figure {
+width:69.44444444444444%; 
+}
+
+@media screen and (max-width=1200px){
+    .chamada h3 {
+        font-size: 1.66666666667em; 
+        }
+        .container h3{
+        font-size: 1.55555555556em; 
+        }
+        .container p{
+        height: 170px;
+        top:217px;
+        }
+}
+
+@media screen and (max-width: 960px) {
+    .chamada h3 {
+      font-size: 1.38888888889em;
+    }
+    .container h3 {
+      font-size: 1.29166666667em;
+    }
+    .container p {
+      height: 141.666666667px; 
+      top: 180px; 
+    }
+  }
+  
+    
+    
